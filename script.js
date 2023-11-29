@@ -6,7 +6,7 @@ function ready() {
     }
     document.querySelector(".pbtm").innerHTML = cut;
 }
-var time = 6;
+var time = 30;
 function start() {
     var timmer = setInterval(function () {
         document.querySelector(".box2").textContent = time--;
